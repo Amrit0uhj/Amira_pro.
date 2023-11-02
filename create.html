@@ -1,0 +1,102 @@
+<!doctype html>
+<html  dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AMIRA88</title>
+        <link rel="stylesheet" href="C:\Users\USER\Desktop\amira project 3\css\style.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg></script>
+        <style>
+            form{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 350px;
+                height: 420px;
+                background: rgba(252, 237, 237, 0.5);
+                border-radius: 15px;
+                box-sizing: border-box;
+            }
+            img[alt="user"]{
+                position: absolute;
+                border-radius: 90px;
+                top: -50px;
+                left: 120px;
+            }
+            h2{
+                color:#c54b8c;
+                text-align: center;
+                margin-top: 90px;
+            }
+            input[type="text"],[type="password"]{
+                position:absolute;
+                outline: none;
+                border: none;
+                width:250px;
+                height: 35px;
+                border-bottom: 2px solid#19833c;
+                background:none;
+                padding: 5px;
+                color:rgb(211, 6, 201);
+            }
+            input[type="text"]{
+                top:140px;
+                left:50px;
+            }
+            [type="password"]{
+                top:210px;
+                left:50px;
+            }
+            input[value="login"]{
+                position: absolute;
+                top: 305px;
+                left: 110px;
+                width: 130px;
+                height: 35px;
+                background: #19833c;
+                border: none;
+                color:aliceblue;
+                border-radius: 15px;
+                outline: none;
+                font-size: 20px;
+                color:aliceblue;
+            }
+            input[value="login"]:hover{
+                background: #c54b8c;
+                color:aliceblue
+            }
+            p{
+                position: absolute;
+                font-size: 17px;
+                top: 360px;
+                left: 50px;
+                color: #19833c;
+                cursor: pointer;
+            }
+            p:hover{
+                color:#c54b8c;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+            <a href="#" class="logo">amira</a>
+            <ul>
+                <li><a href="#" class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="anicent.html">anicent</a></li>
+                <li><a href="modern.html">modern</a></li>
+                <li><a href="create.html">create</a></li>
+            </ul>
+        </nav> 
+        <form>
+            <img src="C:\Users\USER\Desktop\amira project 3\imgesa\14.jpeg" alt="user" width="70" height="100">
+            <h2>login</h2>
+            <input type="text" placeholder="user name">
+            <input type="password" placeholder="Enter password">
+            <input type="button" value="login">
+            <p>forgot password ?</p>
+        </form>
+    </body>
+</html>
